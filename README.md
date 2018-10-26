@@ -1,5 +1,5 @@
 # webscraper
-
+```json
 [
     {
         "href": "portal.php?mod=view&aid=96860",
@@ -18,3 +18,4 @@
         "timestamp": "2018-10-25 19:36"
     }
 ]
+```
