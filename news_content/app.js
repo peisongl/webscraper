@@ -64,7 +64,6 @@ app.get('/', function (req, res, next) {
           json.href  = contentUrl
           json.title = $('.ph').text()
 
-
           var full_content = []
 
           $('#article_content div').each(function (idx, element) {
@@ -72,7 +71,7 @@ app.get('/', function (req, res, next) {
             full_content.push($element.text())
           });
 
-          json.full_content = full_content.join('\r\n');
+          json.full_content = full_content.join(' ');
           return json
 
         });
