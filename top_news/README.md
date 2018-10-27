@@ -1,5 +1,5 @@
 # webscraper
-This script scraps news on sinoquebec `https://www.sinoquebec.com/portal.php?mod=list&catid=1&page=1` website and outputs json file:
+This script scraps top news on sinoquebec `https://www.sinoquebec.com/portal.php?mod=list&catid=1&page=1` and outputs json file:
 
 ```json
 [
